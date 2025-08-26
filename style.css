@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    .wrapper_btn {
+        width: 400px;
+        height: 200px;
+        border: 2px solid red;
+        background: red;
+        border-radius: 20px;
+        a {
+            text-decoration: none;
+            color: black;
+            font-size: 30px;
+        }
+    }   
+}
+
+.promo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    .promo_btn {
+        width: 500px;
+        height: 250px;
+        border-radius: 20px;
+        background-color: red;
+        a {
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
